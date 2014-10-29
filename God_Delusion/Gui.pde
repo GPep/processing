@@ -64,7 +64,7 @@ class MainGui {
        .setColor(color(0))
        .setColorBackground(color(255,100))
        .setColorForeground(color(255,100))
-       .setText("Ever wondered what it would be like to be God. This simulation will sort of allow you to play out that fantasy."
+       .setText("Ever wondered what it would be like to be a God? This simulation will sort of allow you to play out that fantasy."
        + " By modifying the parameters on the right, can you make everything coexist? Can you produce other real world trends like famine or population explosions and how does the simulation cope with these events?"
        + " There is no right or wrong way to play this game/simulation and you might be surprised at the varying outcomes by only slightly changing just one parameter by the smallest value."
        + " This simulation is based on an exercise from 'The Nature of Code' by Daniel Shiffman and also Craig Reynolds' studies in developing autonomous objects."
