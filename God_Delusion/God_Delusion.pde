@@ -48,7 +48,6 @@ void setup(){
 }
 
 void draw(){
-  //saveFrame("frames/####.png");
   background(150);
   if (gameOn){
   cp5.hide();
@@ -73,6 +72,9 @@ void draw(){
 void keyPressed(){
   if (key == 'r' || key == 'R'){
     restart();  
+  }
+  if (key == ' '){
+    saveFrame("frames/file####.jpg");
   }
 }
 
